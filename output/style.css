@@ -7,4 +7,54 @@ body {
   background-color: rgb(176, 176, 176);
 }
 
+.section {
+  text-align: center;
+}
+
+.title {
+  text-decoration: underline red;
+  margin: 2rem;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 1rem;
+}
+
+.product__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20rem;
+  height: 10rem;
+  background-color: orange;
+}
+.product__text {
+  padding-top: 1rem;
+  background-color: white;
+  width: 20rem;
+  height: 10rem;
+}
+.product__title {
+  margin: 1rem;
+}
+
+.price {
+  padding: 1rem;
+}
+.price__old {
+  text-decoration: line-through red;
+  color: red;
+  font-size: 0.9rem;
+}
+
+.button {
+  border: none;
+  background-color: orange;
+  padding: 1rem;
+  margin: 1rem;
+}
+
 /*# sourceMappingURL=style.css.map */

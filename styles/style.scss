@@ -1,0 +1,65 @@
+@use "variables" as *;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(176, 176, 176);
+}
+
+.section {
+  text-align: center;
+}
+
+.title {
+  text-decoration: underline $primary-color;
+  margin: 2rem;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 1rem;
+}
+
+.product {
+  &__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    height: 10rem;
+    background-color: $bg-color;
+  }
+
+  &__text {
+    padding-top: 1rem;
+    background-color: white;
+    width: 20rem;
+    height: 10rem;
+  }
+
+  &__title {
+    margin: 1rem;
+  }
+}
+
+.price {
+  padding: 1rem;
+
+  &__old {
+    text-decoration: line-through $primary-color;
+    color: $primary-color;
+    font-size: 0.9rem;
+  }
+}
+
+.button {
+  border: none;
+  background-color: $bg-color;
+  padding: 1rem;
+  margin: 1rem;
+}
